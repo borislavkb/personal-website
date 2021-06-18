@@ -1,0 +1,10 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(105, 73, 73);
+}
+
+.container1 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
