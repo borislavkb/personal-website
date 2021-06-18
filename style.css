@@ -3,8 +3,6 @@
   color: rgb(105, 73, 73);
 }
 
-.container1 {
-  background-color: red;
-  display: flex;
-  justify-content: center;
+html {
+  box-sizing: border-box;
 }
