@@ -1,23 +1,12 @@
 * {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 body {
-  background-color: black; /* (150, 224, 114); */
+  background-color: rgb(141, 165, 149); /* (150, 224, 114); */
   font-family: monospace;
-  color: green;
+  color: black;
 }
 
 .image {
   border-radius: 50%;
-}
-
-@media only screen and (max-width: 500px) {
-  section {
-    -webkit-flex-direction: center;
-    flex-direction: column;
-  }
 }
