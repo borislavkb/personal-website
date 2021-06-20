@@ -4,69 +4,105 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal website</title>
+    <title>Borislav`s personal website</title>
+    <link rel="stylesheet" href='/mystyles.css'/>
   </head>
+  
   <body>
     <header>
       <h1>Borislav Borislavov</h1>
       <section class="topnav">
-        <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Biography</a></li>
-        </ul>
+        <div id="but1">
+          <button>
+          <a href="#CT">Contact</a>
+        </button>
+        </div>
+        <div id="but2">
+        <button>
+          <a href="#A2">About me</a>
+        </button>
+      </div>
       </section>
     </header>
-
+  
     <main>
-      <img
-        src="https://profile-images.xing.com/images/18f0cdb39a7fa0b8966ef3084f29ad92-1/borislav-borislavov.256x256.jpg"
+      <div id="pic">
+      <img class="image"
+        src="images/borislav.jpg"
         alt="Profile picture from xing.com"
       />
+    </div>
     
-      <h2>Interests</h2>
+      <div class="Interests">
+      <h2>Interests:</h2>
       <ul>
           <li>Web development</li>
           <li>Reading sci fi books</li>
           <li>Beekeeping</li>
       </ul>
-      <br>
-      <h2>Skills</h2>
-      <ul>
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-      </ul>
+    </div>
     
-      <section>
-          <h2>Contact information</h2>
+    <div class="Skills">
+      <h2>Skills:</h2>
+      <ul>
+          <li>Basic HTML</li>
+          <li>Basic CSS</li>
+          <li>Basic JavaScript</li>
+      </ul>
+    </div>
+
+      <section class="Contact">
+          <h2 id="CT">Contact information</h2>
           <ul>
             <li>Email: borislavkb@gmail.com</li>
             <li>Mobile phone: 00 49 176 XXX XXXX</li>
           </ul>
       </section>
       
-      <section>
-          <a href="https://github.com/borislavkb" >Github profile</a>
-          <a href="url" alt=""></a>
-      </section>
-      <section>
-        <h2>About me</h2>
-        <p> My name is Borislav Borislavov and I am currently taking the steps to becoming a web developer.</p>
-        <p> I was born in Bulgaria and have studied Economics in the University of Economics - Varna. Since 2015 I have been living and working abroad. I had the chance to live in 3 different countries: Slovakia, Czechia and Germany. After several years in the Finance and Acccounting field I finally decided to make a change for the better by entering a Coding Bootcamp at neuefishe GmbH. I have many interests but the majority of my time I spend with my 3-old daughter. </p>
-      </section>
+      <section class="Links">
+      <div class="Github">
+        <h3>Github profile</h3>
+          <a href="https://github.com/borislavkb" target="_blank" title="Click me" >
+          <img src="images/GitHub-Mark-Light-120px-plus.png">
+          </a>
+      </div>
 
+      <div class="Codepen">
+        <h3>Codepen profile</h3>
+          <a href="https://codepen.io/borislavkb" target="_blank" title="Click me">
+            <img src="images/codepen.png" alt="Codepen logo" style="width: 120px; height: 120px;">
+          </a>
+      </div>
 
+      <div class="LinkedIn">
+        <h3>LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/borislav-borislavov-b81013a1/" target="_blank" titel="Click for LinkedIn page">
+          <img src="images/linkedin.png" alt="LinkedIn logo" style="width: 120px; height: 120px;">
+        </a>
+      </div>
+    </section>
 
-      <section>
+    <section class="sec2">
+        <div class="Abme">
+        <h2 id="A2">About me</h2>
+        <p> My name is Borislav Borislavov and I am currently taking the steps to becoming a web developer.<br>
+          I was born in <a href="https://en.wikipedia.org/wiki/Bulgaria" target="_blank">Bulgaria</a> and have studied Economics in the University of Economics - Varna. Since 2015 I have been living and working abroad. I had the chance to live in 3 different countries: Slovakia, Czechia and Germany. After several years in the Finance and Acccounting field I finally decided to make a change for the better by entering a Coding Bootcamp at neuefishe GmbH. I have many interests but the majority of my time I spend with my 3-year-old daughter. </p>
+        </div>
+        </section>
+
+        <div class="Edu">
         <h3>Education</h3>
         <ul>
           <li>2013 - Master´s degree in Accounting</li>
           <li>2012 - Bachelor´s degree in International Economic Relations</li>
           <li>2008 - Highschool graduation</li>
         </ul>
-      </section>
+        </div>
 
-    
+      <div class="CV">
+        <a href="url" title="Download CV as pdf" target="_blank">Download Borislav‘s CV</a>
+      </div>
+
     </main>
     <footer>
         <p>Author: Borislav Borislavov</p>
