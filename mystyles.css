@@ -17,3 +17,10 @@ section {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
