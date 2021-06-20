@@ -1,12 +1,22 @@
+* {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 body {
   /* background-image: url("images/background.jpg"); -->
   -webkit-background-size: cover; */
   background-color: rgb(150, 224, 114);
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
-  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 }
