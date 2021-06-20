@@ -24,3 +24,15 @@ section {
   justify-content: space-around;
   align-items: center;
 }
+
+.Interests,
+.Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+ul {
+  list-style-type: none;
+}
